@@ -1,7 +1,10 @@
 # LoopController
-Magnetic Loop Controller based on design by Loftur
-This is the smallest possible footprint for the Magnetic Loop Controller which make possible the use in portable situations.
-The project consists of 2 printed circuit boards 77 x 56.5mm. One board holds all components including 4x20 LCD character display and Teensy 3.2/4.0 and DRV8825 stepper motor driver.
+Magnetic Loop Controller based on the popular design by Loftur E. Jonasson, TF3LJ / VE2AO
+https://sites.google.com/site/lofturj/13-to-automatically-tune-a-magnetic-loop-antenna
+https://groups.io/g/loopController
+
+This is the smallest possible footprint for the Magnetic Loop Controller which makes possible the use in portable situations.
+The project consists of 2 printed circuit boards 77 x 56.5mm. One board holds all components including 4x20 77x47mm LCD character display and Teensy 3.2/4.0 and DRV8825 stepper motor driver.
 
 
 3D render of the component side of the main board 
@@ -42,16 +45,29 @@ Some short comings of Loftur's oringinal PCB design are:
 4. Only works with Teensy 3.2 which is no longer in production.
 5. No built-in SWR detection.
 
+Internal view of Loftur's original controller:
+![Loftur_original_photo](https://github.com/user-attachments/assets/ed87f680-dc14-40b1-ac3b-0c79518e38c2)
+Schematic of Loftur's design
+![Loftur_original_schematic](https://github.com/user-attachments/assets/27cbc087-f75f-40cc-ab1e-b2943080d432)
+
+
 Features added.
 1. Added 1k resistors to all data lines between the Teensy, LCD and DRV8825 to minimize risk of 5V levels destroying the Teensy 4.0.
-2. Joined A12 to A11 of Teensy 4.0 so you can possibly use ON5IA Teensy 4.0 firmware as-is.
-3. Added common tactile push buttons on-board.
-4. Added power switch on board (ALPS type)
-5. Added trace so if you use a Rotary Encoder with a push button it will function as Menu/Confirm.
-6. Added SMD RJ45 Ethernet connector for easy connection to the stepper motor and limit switches using standerd Ethernet cable.
-7. Miniature LCD character Display with backlight can be connected directly to the main controller board by 4 M3 screws.
-8. Optional SWR board piggybacks on the back of the main board.
+2. Included zener diodes to protect inputs from vacuum capacitor limit switches.
+3. Joined A12 to A11 of Teensy 4.0 so you can possibly use ON5IA Teensy 4.0 firmware as-is.
+4. Added common tactile push buttons on-board.
+5. Added power switch on board (ALPS type)
+6. Added trace so if you use a Rotary Encoder with a push button it will function as Menu/Confirm.
+7. Added SMD RJ45 Ethernet connector for easy connection to the stepper motor and limit switches using standerd Ethernet cable.
+8. Miniature LCD character Display with backlight can be connected directly to the main controller board by 4 M3 screws.
+9. Optional SWR board piggybacks on the back of the main board.
+New Controller Schematic
+![Schematic-controller](https://github.com/user-attachments/assets/7b553e8a-0baa-4a13-b755-a610c47f3ed1)
+SWR bridge daughter board schematic
+![Schematic-swr](https://github.com/user-attachments/assets/c450c20a-d48b-4b8d-a5e6-4497ec0cff0e)
 
-Ful list of additional parts to follow...
+
+
+Full list of additional parts to follow...
 
 73s Al
