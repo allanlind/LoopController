@@ -33,3 +33,25 @@ BOM File
 Positions File
 [positions.csv](https://github.com/user-attachments/files/19380386/positions.csv)
 
+Loftur's original code should run as-is if using a Teensy 3.2
+Some changes to the code will be required to use a Teensy 4.0 see ON5IA [Running the Automatic Magnetic Loop Tuner on a Teensy 4.0 – Golb.be – ON5IA  ](https://www.golb.be/running-the-automatic-magnetic-loop-tuner-on-a-teensy-4-0/)
+Some short comings of Loftur's oringinal PCB design are:
+1. Many connectors and ribbon/wires required to connect up the display, buttons, power etc.
+2. No on-board reverse polarity protection for 12V input.
+3. lots of through hole components to be soldered.
+4. Only works with Teensy 3.2 which is no longer in production.
+5. No built-in SWR detection.
+
+Features added.
+1. Added 1k resistors to all data lines between the Teensy, LCD and DRV8825 to minimize risk of 5V levels destroying the Teensy 4.0.
+2. Joined A12 to A11 of Teensy 4.0 so you can possibly use ON5IA Teensy 4.0 firmware as-is.
+3. Added common tactile push buttons on-board.
+4. Added power switch on board (ALPS type)
+5. Added trace so if you use a Rotary Encoder with a push button it will function as Menu/Confirm.
+6. Added SMD RJ45 Ethernet connector for easy connection to the stepper motor and limit switches using standerd Ethernet cable.
+7. Miniature LCD character Display with backlight can be connected directly to the main controller board by 4 M3 screws.
+8. Optional SWR board piggybacks on the back of the main board.
+
+Ful list of additional parts to follow...
+
+73s Al
