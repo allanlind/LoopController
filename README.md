@@ -53,7 +53,7 @@ Schematic of Loftur's design
 
 Features added.
 1. Added 1k resistors to all data lines between the Teensy, LCD and DRV8825 to minimize risk of 5V levels destroying the Teensy 4.0.
-2. Included zener diodes to protect inputs from vacuum capacitor limit switches.
+2. Changed to 3.3V zener diodes to protect Teensy 4.0 inputs from possible damaging voltages on vacuum capacitor limit switche lines.
 3. Joined A12 to A11 of Teensy 4.0 so you can possibly use ON5IA Teensy 4.0 firmware as-is.
 4. Added common tactile push buttons on-board.
 5. Added power switch on board (ALPS type)
