@@ -78,11 +78,20 @@ Search Ali Express "small size 20x4 2004 77x47mm Lcd Display Module HD44780 5V"
 ![LCD](https://github.com/user-attachments/assets/617c22e9-360b-4e16-842f-a926fce3d058)
 
 Connectors for LCD Display
-Female Header: XKB Connection X5511FV-16-C30D743-0743 LCSC Part number C2764599 
-Male Header: XKB Connection X5511WV-16-C35D35-1000 LCSC Part number C2764600
+Female Header:  XKB Connection X5511FV-16-C30D743-0743 LCSC Part number C2764599 
+Male Header (solder to controller PCB): XKB Connection X5511WV-16-C35D35-1000 LCSC Part number C2764600
 
 Main Power switch: Alps ALPINE SPEF110100 LCSC Part number C115366
+Push buttons 6mm tactile CUI TS02-66-170-BK-100-SCR-D LCSC Part number C4364522 or Samesky TS02-66-170-BK-100-SCR-D Mouser No:179-TS0266170BK100SC these are 17mm shaft but probably need longer shaft (depends on what we decide for the case)
 Main power connector: Boom Precision Elec DC-005 2.0 LCSC Part number C16214 
+CAT Audio connector: XKB Connection PJ-32000 LCSC Part number C2689690
 5V Regulator: ST Microelectronics L7805CV-DG LCSC Part number C3795
+Rotary Encoder: EM14A0D-C24-L64N Mouser part number  652-EM14A0D-C24-L64N
+DRV8825 Stepper Motor Driver Carrier, High Current https://www.pololu.com/product/2133 (suggest you glue a heatsink to the chip)
+Teensy 4.0 Fully Loaded https://protosupplies.com/product/teensy-4-0-fully-loaded/
+You'll need two 14 square hole female headers and a 2x5 header for the Teensy 4.0
+
+
+
 
 73s Al
