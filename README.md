@@ -55,7 +55,7 @@ Schematic of Loftur's design
 
 Features added.
 1. Added 1k resistors to all data lines between the Teensy, LCD and DRV8825 to minimize risk of 5V levels destroying the Teensy 4.0.
-2. Changed to 3.3V zener diodes to protect Teensy 4.0 inputs from possible damaging voltages on vacuum capacitor limit switche lines.
+2. Changed to 3.3V zener diodes to protect Teensy 4.0 inputs from possible damaging voltages on vacuum capacitor limit switch lines.
 3. Joined A12 to A11 of Teensy 4.0 so you can possibly use ON5IA Teensy 4.0 firmware as-is.
 4. Added common tactile push buttons on-board.
 5. Added power switch on board (ALPS type)
@@ -100,6 +100,11 @@ Teensy 4.0 Fully Loaded https://protosupplies.com/product/teensy-4-0-fully-loade
 You'll need two 14 square hole female headers and a 2x5 header for the Teensy 4.0
 
 
+Pinout for RJ45 connector
+Orange and Green pair are for stepper motor windings
+Brown and Blue pair are for limit switches
+
+![RJ45](https://github.com/user-attachments/assets/2ac93663-9a04-4dbe-a8be-6afd55b50617)
 
 
 73s Al
