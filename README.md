@@ -1,5 +1,5 @@
-[positions.csv](https://github.com/user-attachments/files/19400029/positions.csv)[bom.csv](https://github.com/user-attachments/files/19400006/bom.csv)# LoopController
 Magnetic Loop Controller based on the popular design by Loftur E. Jonasson, TF3LJ / VE2AO
+
 https://sites.google.com/site/lofturj/13-to-automatically-tune-a-magnetic-loop-antenna
 https://groups.io/g/loopController
 
