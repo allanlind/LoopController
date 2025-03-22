@@ -1,4 +1,4 @@
-# LoopController
+[positions.csv](https://github.com/user-attachments/files/19400029/positions.csv)[bom.csv](https://github.com/user-attachments/files/19400006/bom.csv)# LoopController
 Magnetic Loop Controller based on the popular design by Loftur E. Jonasson, TF3LJ / VE2AO
 https://sites.google.com/site/lofturj/13-to-automatically-tune-a-magnetic-loop-antenna
 https://groups.io/g/loopController
@@ -17,13 +17,15 @@ The boards may be ordered populated with all SMD components from JLCPCB https://
 
 Main Controller Board:
 Gerbers
-[Magnetic_Loop_Controller_1.0.zip](https://github.com/user-attachments/files/19380353/Magnetic_Loop_Controller_1.0.zip)
+[Magnetic_Loop_Controller_1.1.zip](https://github.com/user-attachments/files/19400147/Magnetic_Loop_Controller_1.1.zip)
+
 
 BOM File
-[bom.csv](https://github.com/user-attachments/files/19380357/bom.csv)
+[bom.csv](https://github.com/user-attachments/files/19400008/bom.csv)
 
 Positions File
-[positions.csv](https://github.com/user-attachments/files/19380376/positions.csv)
+[positions.csv](https://github.com/user-attachments/files/19400253/positions.csv)
+
 
 
 SWR Daughter Board:
@@ -69,5 +71,10 @@ SWR bridge daughter board schematic
 
 
 Full list of additional parts to follow...
+LCD Display
+Search Ali Express "small size 20x4 2004 77x47mm Lcd Display Module HD44780 5V"
+![LCD](https://github.com/user-attachments/assets/617c22e9-360b-4e16-842f-a926fce3d058)
+
+
 
 73s Al
