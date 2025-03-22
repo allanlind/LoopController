@@ -17,14 +17,14 @@ The boards may be ordered populated with all SMD components from JLCPCB https://
 
 Main Controller Board:
 Gerbers
-[Magnetic_Loop_Controller_1.1.zip](https://github.com/user-attachments/files/19400147/Magnetic_Loop_Controller_1.1.zip)
-
+[Magnetic_Loop_Controller_1.1.zip](https://github.com/user-attachments/files/19400983/Magnetic_Loop_Controller_1.1.zip)
 
 BOM File
-[bom.csv](https://github.com/user-attachments/files/19400008/bom.csv)
+[bom.csv](https://github.com/user-attachments/files/19400980/bom.csv)
 
 Positions File
-[positions.csv](https://github.com/user-attachments/files/19400253/positions.csv)
+[positions.csv](https://github.com/user-attachments/files/19400978/positions.csv)
+
 
 
 
