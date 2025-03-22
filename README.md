@@ -4,7 +4,7 @@ https://sites.google.com/site/lofturj/13-to-automatically-tune-a-magnetic-loop-a
 https://groups.io/g/loopController
 
 This is the smallest possible footprint for the Magnetic Loop Controller which makes possible the use in portable situations.
-The project consists of 2 printed circuit boards 77 x 56.5mm. One board holds all components including 4x20 77x47mm LCD character display and Teensy 3.2/4.0 and DRV8825 stepper motor driver.
+The project consists of 2 printed circuit boards 77 x 56.5mm. One board holds all components including 4x20 77x47mm LCD character display and Teensy 3.2/4.0 and DRV8825 stepper motor driver, and a second board is piggybacked on for SWR measurement.
 
 
 3D render of the component side of the main board 
