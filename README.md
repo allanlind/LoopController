@@ -64,17 +64,25 @@ Features added.
 8. Miniature LCD character Display with backlight can be connected directly to the main controller board by 4 M3 screws.
 9. Optional SWR board piggybacks on the back of the main board.
 New Controller Schematic
-![Schematic-controller](https://github.com/user-attachments/assets/7b553e8a-0baa-4a13-b755-a610c47f3ed1)
+![Schematic-controller](https://github.com/user-attachments/assets/72d82677-31e2-4d0c-af53-aab60de28600)
+
 SWR bridge daughter board schematic
 ![Schematic-swr](https://github.com/user-attachments/assets/c450c20a-d48b-4b8d-a5e6-4497ec0cff0e)
 
 
 
-Full list of additional parts to follow...
+Full list of additional parts: (work in progress)
+
 LCD Display
 Search Ali Express "small size 20x4 2004 77x47mm Lcd Display Module HD44780 5V"
 ![LCD](https://github.com/user-attachments/assets/617c22e9-360b-4e16-842f-a926fce3d058)
 
+Connectors for LCD Display
+Female Header: XKB Connection X5511FV-16-C30D743-0743 LCSC Part number C2764599 
+Male Header: XKB Connection X5511WV-16-C35D35-1000 LCSC Part number C2764600
 
+Main Power switch: Alps ALPINE SPEF110100 LCSC Part number C115366
+Main power connector: Boom Precision Elec DC-005 2.0 LCSC Part number C16214 
+5V Regulator: ST Microelectronics L7805CV-DG LCSC Part number C3795
 
 73s Al
