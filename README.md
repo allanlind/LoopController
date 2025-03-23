@@ -30,13 +30,15 @@ Positions File
 
 SWR Daughter Board:
 Gerbers
-[Magnetic_Loop_Controller_SWR_Option_1.0.zip](https://github.com/user-attachments/files/19380380/Magnetic_Loop_Controller_SWR_Option_1.0.zip)
+[Magnetic_Loop_Controller_SWR_Option_1.1.zip](https://github.com/user-attachments/files/19406529/Magnetic_Loop_Controller_SWR_Option_1.1.zip)
 
 BOM File
-[bom.csv](https://github.com/user-attachments/files/19380385/bom.csv)
+[bom.csv](https://github.com/user-attachments/files/19406530/bom.csv)
+
 
 Positions File
-[positions.csv](https://github.com/user-attachments/files/19380386/positions.csv)
+[positions.csv](https://github.com/user-attachments/files/19406531/positions.csv)
+
 
 Loftur's original code should run as-is if using a Teensy 3.2
 Some changes to the code will be required to use a Teensy 4.0 see ON5IA [Running the Automatic Magnetic Loop Tuner on a Teensy 4.0 – Golb.be – ON5IA  ](https://www.golb.be/running-the-automatic-magnetic-loop-tuner-on-a-teensy-4-0/)
