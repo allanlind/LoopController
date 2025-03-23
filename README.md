@@ -11,7 +11,7 @@ The project consists of 2 printed circuit boards 77 x 56.5mm. One board holds al
 ![back-controller](https://github.com/user-attachments/assets/c84b877e-9d73-43b1-9863-8d7a48a9955a)
 
 3D render of the top side of the main board 
-![front-controller](https://github.com/user-attachments/assets/6ccc9c6d-3d3d-4c44-a733-ba61e938ee4a)
+![front-controller](https://github.com/user-attachments/assets/978c2cc6-d810-4cd0-9740-436872ef12a8)
 
 
 
