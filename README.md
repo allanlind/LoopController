@@ -10,6 +10,11 @@ The project consists of 2 printed circuit boards 77 x 56.5mm. One board holds al
 3D render of the component side of the main board 
 ![back-controller](https://github.com/user-attachments/assets/c84b877e-9d73-43b1-9863-8d7a48a9955a)
 
+3D render of the top side of the main board 
+![front-controller](https://github.com/user-attachments/assets/6ccc9c6d-3d3d-4c44-a733-ba61e938ee4a)
+
+
+
 3D render of the component side of the SWR daughter board 
 ![back-swr](https://github.com/user-attachments/assets/716ac14b-6500-4749-b082-0e0688e89a87)
 
