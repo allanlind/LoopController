@@ -11,7 +11,8 @@ The project consists of 2 printed circuit boards 77 x 56.5mm. One board holds al
 ![back-controller](https://github.com/user-attachments/assets/c84b877e-9d73-43b1-9863-8d7a48a9955a)
 
 3D render of the component side of the SWR daughter board 
-![back-swr](https://github.com/user-attachments/assets/84016753-d76d-4f4f-b516-e0196b1b96ee)
+![back-swr](https://github.com/user-attachments/assets/716ac14b-6500-4749-b082-0e0688e89a87)
+
 
 The boards may be ordered populated with all SMD components from JLCPCB https://jlcpcb.com/ included here are the files including gerbers to order your board(s). 
 
